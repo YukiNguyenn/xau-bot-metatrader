@@ -1,0 +1,243 @@
+2025-05-23 03:00:10,538 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 03:00:10,539 - Main - INFO - Configuration loaded successfully
+2025-05-23 03:00:10,550 - Main - INFO - MT5 initialized successfully
+2025-05-23 03:00:10,559 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 03:00:10,560 - Main - ERROR - Error in main: 'strategy'
+2025-05-23 03:00:10,560 - Main - INFO - MT5 shutdown complete
+2025-05-23 03:21:11,187 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 03:21:11,188 - Main - INFO - Configuration loaded successfully
+2025-05-23 03:21:11,199 - Main - INFO - MT5 initialized successfully
+2025-05-23 03:21:11,209 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 03:21:11,209 - Main - ERROR - Error in main: 'strategy'
+2025-05-23 03:21:11,209 - Main - INFO - MT5 shutdown complete
+2025-05-23 03:22:53,766 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 03:22:53,766 - Main - INFO - Configuration loaded successfully
+2025-05-23 03:22:53,776 - Main - INFO - MT5 initialized successfully
+2025-05-23 03:22:53,786 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 03:22:53,787 - Main - ERROR - Error in main: 'timeframes'
+2025-05-23 03:22:53,788 - Main - INFO - MT5 shutdown complete
+2025-05-23 03:23:38,055 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 03:23:38,056 - Main - INFO - Configuration loaded successfully
+2025-05-23 03:23:38,067 - Main - INFO - MT5 initialized successfully
+2025-05-23 03:23:38,075 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 03:23:38,076 - Main - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'strategy': {'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}}
+2025-05-23 03:23:38,078 - Main - ERROR - Error in main: 'timeframes'
+2025-05-23 03:23:38,078 - Main - INFO - MT5 shutdown complete
+2025-05-23 03:25:54,833 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 03:25:54,834 - Main - INFO - Configuration loaded successfully
+2025-05-23 03:25:54,844 - Main - INFO - MT5 initialized successfully
+2025-05-23 03:25:54,855 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 03:25:54,855 - Main - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}
+2025-05-23 03:25:54,857 - StrategyManager - ERROR - Failed to load config for RSIStrategy: [Errno 2] No such file or directory: 'config/strategies\\rsistrategy.json'
+2025-05-23 03:25:54,857 - StrategyManager - INFO - Added strategy: RSIStrategy
+2025-05-23 03:25:54,858 - Main - INFO - RSI Strategy added successfully
+2025-05-23 03:25:54,859 - StrategyManager - ERROR - Error in strategy RSIStrategy: RSIStrategy.get_data() missing 1 required positional argument: 'timeframe'
+2025-05-23 03:25:54,860 - StrategyManager - INFO - Started strategy: RSIStrategy
+2025-05-23 03:25:54,860 - Main - INFO - Trading started
+2025-05-23 03:25:59,882 - StrategyManager - ERROR - Error in strategy RSIStrategy: RSIStrategy.get_data() missing 1 required positional argument: 'timeframe'
+2025-05-23 03:26:01,558 - Main - INFO - Received shutdown signal
+2025-05-23 03:26:04,933 - StrategyManager - INFO - All strategies stopped
+2025-05-23 03:26:04,934 - Main - INFO - Trading stopped
+2025-05-23 03:26:04,934 - Main - INFO - MT5 shutdown complete
+2025-05-23 03:29:09,380 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 03:29:09,381 - Main - INFO - Configuration loaded successfully
+2025-05-23 03:29:09,397 - Main - INFO - MT5 initialized successfully
+2025-05-23 03:29:09,412 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 03:29:09,413 - Main - ERROR - Error in main: 'strategy'
+2025-05-23 03:29:09,414 - Main - INFO - MT5 shutdown complete
+2025-05-23 03:34:43,347 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 03:34:43,347 - Main - INFO - Configuration loaded successfully
+2025-05-23 03:34:43,356 - Main - INFO - MT5 initialized successfully
+2025-05-23 03:34:43,364 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 03:34:43,365 - Main - ERROR - Error in main: 'timeframes'
+2025-05-23 03:34:43,365 - Main - INFO - MT5 shutdown complete
+2025-05-23 03:35:29,173 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 03:35:29,174 - Main - INFO - Configuration loaded successfully
+2025-05-23 03:35:29,183 - Main - INFO - MT5 initialized successfully
+2025-05-23 03:35:29,192 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 03:35:29,193 - Main - ERROR - Error in main: 'timeframes'
+2025-05-23 03:35:29,193 - Main - INFO - MT5 shutdown complete
+2025-05-23 03:35:48,523 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 03:35:48,524 - Main - INFO - Configuration loaded successfully
+2025-05-23 03:35:48,533 - Main - INFO - MT5 initialized successfully
+2025-05-23 03:35:48,543 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 03:35:48,546 - StrategyManager - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'strategy': {'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}}
+2025-05-23 03:35:48,548 - Main - ERROR - Error in main: 'timeframes'
+2025-05-23 03:35:48,548 - Main - INFO - MT5 shutdown complete
+2025-05-23 03:36:56,006 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 03:36:56,006 - Main - INFO - Configuration loaded successfully
+2025-05-23 03:36:56,019 - Main - INFO - MT5 initialized successfully
+2025-05-23 03:36:56,028 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 03:36:56,029 - StrategyManager - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'strategy': {'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}}
+2025-05-23 03:36:56,031 - StrategyManager - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'strategy': {'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}}
+2025-05-23 03:36:56,034 - Main - ERROR - Error in main: 'timeframes'
+2025-05-23 03:36:56,034 - Main - INFO - MT5 shutdown complete
+2025-05-23 03:37:30,333 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 03:37:30,334 - Main - INFO - Configuration loaded successfully
+2025-05-23 03:37:30,343 - Main - INFO - MT5 initialized successfully
+2025-05-23 03:37:30,353 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 03:37:30,356 - Main - ERROR - Error in main: 'timeframes'
+2025-05-23 03:37:30,357 - Main - INFO - MT5 shutdown complete
+2025-05-23 03:37:48,971 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 03:37:48,972 - Main - INFO - Configuration loaded successfully
+2025-05-23 03:37:48,981 - Main - INFO - MT5 initialized successfully
+2025-05-23 03:37:48,990 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 03:37:48,991 - StrategyManager - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'strategy': {'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}}
+2025-05-23 03:37:48,994 - Main - ERROR - Error in main: 'timeframes'
+2025-05-23 03:37:48,995 - Main - INFO - MT5 shutdown complete
+2025-05-23 03:39:16,934 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 03:39:16,935 - Main - INFO - Configuration loaded successfully
+2025-05-23 03:39:16,944 - Main - INFO - MT5 initialized successfully
+2025-05-23 03:39:16,953 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 03:39:16,954 - StrategyManager - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}
+2025-05-23 03:39:16,956 - StrategyManager - INFO - Strategy 'rsi_strategy' loaded and initialized.
+2025-05-23 03:39:16,956 - Main - ERROR - Error in main: name 'strategy' is not defined
+2025-05-23 03:39:16,956 - Main - INFO - MT5 shutdown complete
+2025-05-23 03:39:54,853 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 03:39:54,853 - Main - INFO - Configuration loaded successfully
+2025-05-23 03:39:54,863 - Main - INFO - MT5 initialized successfully
+2025-05-23 03:39:54,873 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 03:39:54,874 - StrategyManager - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}
+2025-05-23 03:39:54,877 - StrategyManager - INFO - Strategy 'rsi_strategy' loaded and initialized.
+2025-05-23 03:39:54,877 - StrategyManager - INFO - Added strategy: rsi_strategy
+2025-05-23 03:39:54,878 - Main - INFO - RSI Strategy added successfully
+2025-05-23 03:39:54,879 - StrategyManager - ERROR - Error in strategy RSIStrategy: RSIStrategy.get_data() missing 1 required positional argument: 'timeframe'
+2025-05-23 03:39:54,879 - StrategyManager - INFO - Started strategy: RSIStrategy
+2025-05-23 03:39:54,880 - Main - INFO - Trading started
+2025-05-23 03:39:59,911 - StrategyManager - ERROR - Error in strategy RSIStrategy: RSIStrategy.get_data() missing 1 required positional argument: 'timeframe'
+2025-05-23 03:40:03,147 - Main - INFO - Received shutdown signal
+2025-05-23 03:40:04,950 - StrategyManager - INFO - All strategies stopped
+2025-05-23 03:40:04,950 - Main - INFO - Trading stopped
+2025-05-23 03:40:04,951 - Main - INFO - MT5 shutdown complete
+2025-05-23 04:09:04,014 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 04:09:04,014 - Main - INFO - Configuration loaded successfully
+2025-05-23 04:09:04,024 - Main - INFO - MT5 initialized successfully
+2025-05-23 04:09:04,033 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 04:09:04,034 - StrategyManager - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'support_timeframes': {'M1': 1, 'M5': 5, 'M15': 15, 'H1': 60, 'H4': 240, 'D1': 1440}, 'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}
+2025-05-23 04:09:04,035 - StrategyManager - INFO - Strategy 'rsi_strategy' loaded and initialized.
+2025-05-23 04:09:04,035 - StrategyManager - INFO - Added strategy: rsi_strategy
+2025-05-23 04:09:04,036 - Main - INFO - RSI Strategy added successfully
+2025-05-23 04:09:04,038 - StrategyManager - ERROR - Error in strategy RSIStrategy: RSIStrategy.get_data() missing 1 required positional argument: 'timeframe'
+2025-05-23 04:09:04,038 - StrategyManager - INFO - Started strategy: RSIStrategy
+2025-05-23 04:09:04,039 - Main - INFO - Trading started
+2025-05-23 04:09:09,068 - StrategyManager - ERROR - Error in strategy RSIStrategy: RSIStrategy.get_data() missing 1 required positional argument: 'timeframe'
+2025-05-23 04:09:10,274 - Main - INFO - Received shutdown signal
+2025-05-23 04:09:14,121 - StrategyManager - INFO - All strategies stopped
+2025-05-23 04:09:14,121 - Main - INFO - Trading stopped
+2025-05-23 04:09:14,122 - Main - INFO - MT5 shutdown complete
+2025-05-23 04:10:17,690 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 04:10:17,690 - Main - INFO - Configuration loaded successfully
+2025-05-23 04:10:17,699 - Main - INFO - MT5 initialized successfully
+2025-05-23 04:10:17,707 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 04:10:17,707 - StrategyManager - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'support_timeframes': {'M1': 1, 'M5': 5, 'M15': 15, 'H1': 60, 'H4': 240, 'D1': 1440}, 'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}
+2025-05-23 04:10:17,708 - StrategyManager - INFO - Strategy 'rsi_strategy' loaded and initialized.
+2025-05-23 04:10:17,708 - StrategyManager - INFO - Added strategy: rsi_strategy
+2025-05-23 04:10:17,708 - Main - INFO - RSI Strategy added successfully
+2025-05-23 04:10:17,710 - StrategyManager - INFO - Started strategy: RSIStrategy
+2025-05-23 04:10:17,710 - Main - INFO - Trading started
+2025-05-23 04:10:17,780 - RSIStrategy - INFO - Fetched 6064 bars for M5 from 2025-04-22 22:00:00 to 2025-05-22 20:55:00
+2025-05-23 04:10:17,903 - RSIStrategy - INFO - Fetched 2023 bars for M15 from 2025-04-22 22:00:00 to 2025-05-22 20:45:00
+2025-05-23 04:10:17,948 - RSIStrategy - ERROR - No data received for H1
+2025-05-23 04:10:19,319 - RSIStrategy - INFO - M5 RSI - Short: 64.23, Medium: 53.76, Long: 50.34
+2025-05-23 04:10:19,507 - RSIStrategy - INFO - M15 RSI - Short: 55.38, Medium: 47.53, Long: 45.82
+2025-05-23 04:10:19,553 - RSIStrategy - WARNING - No data for timeframe H1
+2025-05-23 04:10:20,016 - Main - INFO - Received shutdown signal
+2025-05-23 04:11:19,628 - StrategyManager - INFO - All strategies stopped
+2025-05-23 04:11:19,629 - Main - INFO - Trading stopped
+2025-05-23 04:11:19,630 - Main - INFO - MT5 shutdown complete
+2025-05-23 04:11:54,406 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 04:11:54,407 - Main - INFO - Configuration loaded successfully
+2025-05-23 04:11:54,417 - Main - INFO - MT5 initialized successfully
+2025-05-23 04:11:54,428 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 04:11:54,429 - StrategyManager - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'support_timeframes': {'M1': 1, 'M5': 5, 'M15': 15, 'H1': 60, 'H4': 240, 'D1': 1440}, 'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}
+2025-05-23 04:11:54,430 - StrategyManager - INFO - Strategy 'rsi_strategy' loaded and initialized.
+2025-05-23 04:11:54,431 - StrategyManager - INFO - Added strategy: rsi_strategy
+2025-05-23 04:11:54,431 - Main - INFO - RSI Strategy added successfully
+2025-05-23 04:11:54,432 - StrategyManager - ERROR - Error in strategy RSIStrategy: RSIStrategy.get_data() missing 1 required positional argument: 'timeframe'
+2025-05-23 04:11:54,432 - StrategyManager - INFO - Started strategy: RSIStrategy
+2025-05-23 04:11:54,433 - Main - INFO - Trading started
+2025-05-23 04:11:58,038 - Main - INFO - Received shutdown signal
+2025-05-23 04:11:59,434 - StrategyManager - INFO - All strategies stopped
+2025-05-23 04:11:59,435 - Main - INFO - Trading stopped
+2025-05-23 04:11:59,436 - Main - INFO - MT5 shutdown complete
+2025-05-23 05:49:33,724 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 05:49:33,735 - Main - INFO - Configuration loaded successfully
+2025-05-23 05:49:33,822 - Main - INFO - MT5 initialized successfully
+2025-05-23 05:49:33,832 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 05:49:33,844 - StrategyManager - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'support_timeframes': {'M1': 1, 'M5': 5, 'M15': 15, 'H1': 60, 'H4': 240, 'D1': 1440}, 'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}
+2025-05-23 05:49:33,845 - StrategyManager - INFO - Strategy 'rsi_strategy' loaded and initialized.
+2025-05-23 05:49:33,846 - Main - ERROR - Error in main: name 'strategy' is not defined
+2025-05-23 05:49:33,846 - Main - INFO - MT5 shutdown complete
+2025-05-23 05:50:02,269 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 05:50:02,269 - Main - INFO - Configuration loaded successfully
+2025-05-23 05:50:02,279 - Main - INFO - MT5 initialized successfully
+2025-05-23 05:50:02,288 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 05:50:02,291 - StrategyManager - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'support_timeframes': {'M1': 1, 'M5': 5, 'M15': 15, 'H1': 60, 'H4': 240, 'D1': 1440}, 'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}
+2025-05-23 05:50:02,294 - StrategyManager - INFO - Strategy 'rsi_strategy' loaded and initialized.
+2025-05-23 05:50:02,294 - StrategyManager - INFO - Added strategy: rsi_strategy
+2025-05-23 05:50:02,295 - Main - INFO - RSI Strategy added successfully
+2025-05-23 05:50:02,297 - StrategyManager - ERROR - Error in strategy RSIStrategy: 'StrategyManager' object has no attribute 'fetch_all_data'
+2025-05-23 05:50:02,297 - StrategyManager - INFO - Started strategy: RSIStrategy
+2025-05-23 05:50:02,298 - Main - INFO - Trading started
+2025-05-23 05:50:07,326 - StrategyManager - ERROR - Error in strategy RSIStrategy: 'StrategyManager' object has no attribute 'fetch_all_data'
+2025-05-23 05:50:09,454 - Main - INFO - Received shutdown signal
+2025-05-23 05:50:12,351 - StrategyManager - INFO - All strategies stopped
+2025-05-23 05:50:12,352 - Main - INFO - Trading stopped
+2025-05-23 05:50:12,352 - Main - INFO - MT5 shutdown complete
+2025-05-23 05:52:59,738 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 05:52:59,739 - Main - INFO - Configuration loaded successfully
+2025-05-23 05:52:59,748 - Main - INFO - MT5 initialized successfully
+2025-05-23 05:52:59,755 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 05:52:59,756 - Main - ERROR - Error in main: name 'DataManager' is not defined
+2025-05-23 05:52:59,756 - Main - INFO - MT5 shutdown complete
+2025-05-23 05:53:23,867 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 05:53:23,868 - Main - INFO - Configuration loaded successfully
+2025-05-23 05:53:23,883 - Main - INFO - MT5 initialized successfully
+2025-05-23 05:53:23,893 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 05:53:23,893 - StrategyManager - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'support_timeframes': {'M1': 1, 'M5': 5, 'M15': 15, 'H1': 60, 'H4': 240, 'D1': 1440}, 'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}
+2025-05-23 05:53:23,896 - StrategyManager - INFO - Strategy 'rsi_strategy' loaded and initialized.
+2025-05-23 05:53:23,897 - StrategyManager - INFO - Added strategy: rsi_strategy
+2025-05-23 05:53:23,899 - Main - INFO - RSI Strategy added successfully
+2025-05-23 05:53:23,913 - StrategyManager - INFO - Started strategy: RSIStrategy
+2025-05-23 05:53:23,955 - Main - INFO - Trading started
+2025-05-23 05:53:24,096 - StrategyManager - WARNING - No data for H1
+2025-05-23 05:53:24,142 - StrategyManager - WARNING - No data for H4
+2025-05-23 05:53:24,190 - StrategyManager - WARNING - No data for D1
+2025-05-23 05:53:24,238 - StrategyManager - ERROR - Error in strategy RSIStrategy: RSIStrategy.run_strategy() takes 1 positional argument but 2 were given
+2025-05-23 05:53:29,340 - StrategyManager - WARNING - No data for H1
+2025-05-23 05:53:29,370 - StrategyManager - WARNING - No data for H4
+2025-05-23 05:53:29,401 - StrategyManager - WARNING - No data for D1
+2025-05-23 05:53:29,448 - StrategyManager - ERROR - Error in strategy RSIStrategy: RSIStrategy.run_strategy() takes 1 positional argument but 2 were given
+2025-05-23 05:53:31,402 - Main - INFO - Received shutdown signal
+2025-05-23 05:53:34,493 - StrategyManager - INFO - All strategies stopped
+2025-05-23 05:53:34,493 - Main - INFO - Trading stopped
+2025-05-23 05:53:34,493 - Main - INFO - MT5 shutdown complete
+2025-05-23 05:55:35,673 - Main - INFO - Starting XAU Trading Bot
+2025-05-23 05:55:35,674 - Main - INFO - Configuration loaded successfully
+2025-05-23 05:55:35,684 - Main - INFO - MT5 initialized successfully
+2025-05-23 05:55:35,691 - TradeManager - ERROR - Failed to login to MT5 account
+2025-05-23 05:55:35,692 - StrategyManager - INFO - {'mt5': {'account': 204596757, 'password': '12345678aA@', 'server': 'Exness-MT5Trial7', 'leverage': 2000}, 'trading': {'symbol': 'XAUUSDm', 'timeframe': '1h', 'max_open_positions': 8, 'min_position_size': 0.01, 'max_position_size': 0.1, 'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_daily_loss': 100, 'risk_per_trade': 1.0, 'lot_size': 0.01, 'max_lots': 0.1, 'min_lots': 0.01}, 'strategies': {'interval': 60, 'enabled': ['RSIStrategy'], 'config_path': 'config/strategies'}, 'logging': {'level': 'INFO', 'log_trades': True, 'log_directory': 'logs', 'file': 'logs/trading.log'}, 'backtest': {'initial_balance': 100, 'commission': 0.0001}, 'mode': 'backtest', 'support_timeframes': {'M1': 1, 'M5': 5, 'M15': 15, 'H1': 60, 'H4': 240, 'D1': 1440}, 'strategy': {'name': 'RSIStrategy', 'enabled': True, 'timeframes': ['M5', 'M15', 'H1'], 'parameters': {'rsi_periods': {'short': 6, 'medium': 14, 'long': 24}, 'rsi_levels': {'short': {'overbought': 90, 'oversold': 10}, 'medium': {'overbought': 85, 'oversold': 20}, 'long': {'overbought': 80, 'oversold': 20}}, 'risk_management': {'stop_loss_pips': 50, 'take_profit_pips': 100, 'max_position_size': 0.1, 'min_position_size': 0.01}}}}
+2025-05-23 05:55:35,693 - StrategyManager - INFO - Strategy 'rsi_strategy' loaded and initialized.
+2025-05-23 05:55:35,693 - StrategyManager - INFO - Added strategy: rsi_strategy
+2025-05-23 05:55:35,693 - Main - INFO - RSI Strategy added successfully
+2025-05-23 05:55:35,703 - StrategyManager - INFO - {'M1': 1, 'M5': 5, 'M15': 15, 'H1': 60, 'H4': 240, 'D1': 1440}
+2025-05-23 05:55:35,703 - StrategyManager - INFO - Started strategy: RSIStrategy
+2025-05-23 05:55:35,707 - Main - INFO - Trading started
+2025-05-23 05:55:35,720 - StrategyManager - WARNING - No data for H1
+2025-05-23 05:55:35,752 - StrategyManager - WARNING - No data for H4
+2025-05-23 05:55:35,798 - StrategyManager - WARNING - No data for D1
+2025-05-23 05:55:35,844 - StrategyManager - ERROR - Error in strategy RSIStrategy: RSIStrategy.run_strategy() takes 1 positional argument but 2 were given
+2025-05-23 05:55:40,924 - StrategyManager - INFO - {'M1': 1, 'M5': 5, 'M15': 15, 'H1': 60, 'H4': 240, 'D1': 1440}
+2025-05-23 05:55:40,998 - StrategyManager - WARNING - No data for H1
+2025-05-23 05:55:41,028 - StrategyManager - WARNING - No data for H4
+2025-05-23 05:55:41,044 - StrategyManager - WARNING - No data for D1
+2025-05-23 05:55:41,090 - StrategyManager - ERROR - Error in strategy RSIStrategy: RSIStrategy.run_strategy() takes 1 positional argument but 2 were given
+2025-05-23 05:55:46,174 - StrategyManager - INFO - {'M1': 1, 'M5': 5, 'M15': 15, 'H1': 60, 'H4': 240, 'D1': 1440}
+2025-05-23 05:55:46,197 - StrategyManager - WARNING - No data for H1
+2025-05-23 05:55:46,228 - StrategyManager - WARNING - No data for H4
+2025-05-23 05:55:46,244 - StrategyManager - WARNING - No data for D1
+2025-05-23 05:55:46,276 - StrategyManager - ERROR - Error in strategy RSIStrategy: RSIStrategy.run_strategy() takes 1 positional argument but 2 were given
+2025-05-23 05:55:48,058 - Main - INFO - Received shutdown signal
+2025-05-23 05:55:51,316 - StrategyManager - INFO - All strategies stopped
+2025-05-23 05:55:51,317 - Main - INFO - Trading stopped
+2025-05-23 05:55:51,317 - Main - INFO - MT5 shutdown complete

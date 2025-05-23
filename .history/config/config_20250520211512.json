@@ -1,0 +1,45 @@
+{
+    "mt5": {
+        "account": 204596757,
+        "password": "12345678aA@",
+        "server": "Exness-MT5Trial7",
+        "leverage": 2000
+    },
+    
+    "trading": {
+        "symbol": "XAUUSDm",
+        "timeframe": "1h",
+        "max_open_positions": 3,
+        "min_position_size": 0.01,
+        "max_position_size": 1.0,
+        "stop_loss_pips": 50,
+        "take_profit_pips": 100,
+        "max_daily_loss": 100,
+        "risk_per_trade": 1.0,
+        "lot_size": 0.01,
+        "max_lots": 0.1,
+        "min_lots": 0.01
+    },
+    
+    "strategies": {
+        "interval": 60,
+        "enabled": [
+            "RSIStrategy"
+        ],
+        "config_path": "config/strategies"
+    },
+    
+    "logging": {
+        "level": "INFO",
+        "log_trades": true,
+        "log_directory": "logs",
+        "file": "logs/trading.log"
+    },
+    
+    "backtest": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-12-31",
+        "initial_balance": 100,
+        "commission": 0.0001
+    }
+}

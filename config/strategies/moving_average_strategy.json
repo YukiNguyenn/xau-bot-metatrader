@@ -1,0 +1,21 @@
+{
+    "name": "MovingAverageStrategy",
+    "enabled": true,
+    "timeframe": "1h",
+    "parameters": {
+        "ma_periods": {
+            "fast": 10,
+            "slow": 20
+        },
+        "ma_types": {
+            "fast": "EMA",
+            "slow": "SMA"
+        },
+        "risk_management": {
+            "stop_loss_pips": 50,
+            "take_profit_pips": 100,
+            "max_position_size": 0.1,
+            "min_position_size": 0.01
+        }
+    }
+} 

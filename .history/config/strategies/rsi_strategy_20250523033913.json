@@ -1,0 +1,32 @@
+{
+  "name": "RSIStrategy",
+  "enabled": true,
+  "timeframes": ["M5", "M15", "H1"],
+  "parameters": {
+    "rsi_periods": {
+      "short": 6,
+      "medium": 14,
+      "long": 24
+    },
+    "rsi_levels": {
+      "short": {
+        "overbought": 90,
+        "oversold": 10
+      },
+      "medium": {
+        "overbought": 85,
+        "oversold": 20
+      },
+      "long": {
+        "overbought": 80,
+        "oversold": 20
+      }
+    },
+    "risk_management": {
+      "stop_loss_pips": 50,
+      "take_profit_pips": 100,
+      "max_position_size": 0.1,
+      "min_position_size": 0.01
+    }
+  }
+}

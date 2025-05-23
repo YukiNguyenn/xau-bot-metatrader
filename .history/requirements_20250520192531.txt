@@ -1,0 +1,9 @@
+MetaTrader5==5.0.4993
+pandas==2.0.3
+numpy==1.24.3
+pandas_ta==0.3.14b0
+pytest==7.4.3
+matplotlib==3.7.2
+python-dateutil>=2.8.2
+pytz>=2020.1
+tzdata>=2022.1
